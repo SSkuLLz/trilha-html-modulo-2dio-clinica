@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Contato </title>
+    <link rel="stylesheet" href="base.css">
+
+    <style>  
+        li :hover{
+          background-color: rgb(255, 255, 255); 
+          margin-left: -4px;  
+          display:block;
+          cursor: pointer;
+          color: rgb(0, 85, 243);
+        }
+        span {
+            color: rgb(255, 255, 255);
+        }
+        p {
+            font-size: larger;
+            font-style: oblique;
+        }
+
+        textarea{
+            border-style:inset;
+            border-radius: 10px;
+            
+            resize: none 
+        } 
+     
+        fieldset { 
+            border-style: ridge;
+            border-radius: 10px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            color: black
+         } 
+         
+        img
+        {
+            width: 1600px ;
+            height: 300px;
+
+        }
+         
+       
+         
+      </style>
+    
+    
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+              
+                 
+            <ul>
+                
+                <li><a href="http://127.0.0.1:5500/index.html"><span> Início</span></a></li>
+                <hr/>
+                <li><a href="http://127.0.0.1:5500/about.html"><span>Sobre a Clínica</span></a></li>
+                <hr/>
+                <li><a href="http://127.0.0.1:5500/atendimento.html"><span>Horário de Atendimento</span></a></li>
+                <hr/>
+                <li><a href="http://127.0.0.1:5500/contato.html"><span>Contato</a></span></li>
+                <hr/>
+                
+                
+            </ul>
+            
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <img summary= "logotipo,Nome da empresa Dio Dental Care" title ="logotipo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTd6YcBQV1k-2ei2FygRli0O9TBW_vzNBRNzQ&usqp=CAU"/>
+            </div>
+    
+            <div class="content">
+                <h1><u>Contato</u></h1>
+            </div>
+            <div class="content2">
+                <h1 class="esquerdo">Telefone para contato:(48)9823-**** </h1>  
+                <h1 class="direito">Endereço: Lagoa da Conceição, Florianópolis - SC, 88062-001</h1>
+                <h1>Envie sua mensagem:</h1>
+
+                  <iframe class="iframem"src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d23784.077620232274!2d-48.489776237008385!3d-27.60827441703495!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x952739345fb5a2c9%3A0x31c25b312b37d38c!2sMirante%20do%20Morro%20da%20Lagoa%20da%20Concei%C3%A7%C3%A3o!5e0!3m2!1spt-BR!2sbr!4v1667397516782!5m2!1spt-BR!2sbr" width="843" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <form onsubmit="" method="post" class="xxx" >
+                <fieldset >
+                    <legend>Entre em Contato</legend>
+                        <div class="row">
+                            <label>Nome</label><input type="text"name="nome" value="Digite seu Nome"/>
+                            <label>Email</label><input type="email"name="email" value="Digite seu email, deve conter @"/>
+                        </div>
+                
+                        <div class="row">
+                            <label>Assunto</label><select  class="role" name="role">
+                                <option selected disabled value="">Selecione um Assunto</option>
+                                <option value="">Serviços</option>
+                                <option value="">RH</option>
+                                <option value="">Central de ajuda</option>
+                               </select>
+                            <label >Mensagem</label><textarea name="mensagem" value="Digite Sua mensagem" cols="90" rows="10" ></textarea>
+                            
+                        </div>
+                </fieldset>
+                        <button class="btt1" type="submit">Enviar</button>
+                        <button class="btt2" type="reset">Limpar</button> 
+            </form>
+        
+            <div class="footer">
+                <h1><b><blockquote>Dio DentalCare<sup>®</sup> é uma marca registrada</blockquote> </b></h1>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

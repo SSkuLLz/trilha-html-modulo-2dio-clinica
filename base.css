@@ -1,0 +1,182 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1920px; 
+    display: flex;
+    margin: 0 auto;
+    background-color: rgb(254, 255, 255);
+    
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color: rgb(0, 168, 243);
+    padding: 10px 30px 0px;
+    font-size: larger;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+
+
+}
+.header {
+
+    background-color:rgb(0, 168, 243);
+    min-height: 300px;
+    
+
+    
+}
+
+
+.content{
+    background-color: rgb(0, 168, 243);
+   
+}
+
+
+.content p {
+    background-color: rgb(255, 255, 255);
+    padding: 0px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    min-height: 100px;
+}
+
+
+
+table   { 
+
+    text-align: center;
+    width: 1500px;
+    border-radius: 20px;
+    border: solid black; 
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+table thead th {
+      
+    border-radius: 15px;
+    background-color:rgb(0, 168, 243);
+    
+    color: rgb(0, 0, 0);  
+    border:solid black
+     
+}
+table tbody tr:nth-child(even) td {
+    border-radius: 15px;
+    
+    background-color:rgb(0, 168, 243);
+    border:solid black
+    
+}
+
+table tbody tr:hover td {
+    border-radius: 15px;
+    background-color: rgb(104, 204, 22);
+    cursor: pointer;
+    
+}
+
+
+.content h1  {
+    background-color: rgb(0, 168, 243);
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+
+      
+
+
+.footer {
+    background-color: rgb(253, 253, 255);
+    min-height: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: small;
+    
+    
+        
+}
+
+.content2 {
+    background-color: rgb(0, 168, 243);
+
+}
+    
+.content2 h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(255, 255, 255);
+     display: inline-block;   
+}
+
+.esquerdo {
+margin-right:  210px;
+
+}
+
+.iframem {
+    
+    margin-left: 734px;
+    margin-top: -22px;
+
+}
+
+.row input{
+    width: 100%;
+    padding: 10px 10px;
+    margin: 5px 1px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    
+    
+    
+}
+.xxx {
+    width: 46.5%;
+    padding: 10px 10px;
+    margin: -450px 0px;
+    box-sizing: border-box;
+    background-color:rgb(0, 168, 243);
+    margin-bottom: 0px;
+    margin-left: -10px;
+    
+    
+    
+   
+}
+  
+.role { box-sizing: border-box;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    padding: 10px 10px;
+    border-style:inset;
+
+}
+
+.btt1   {
+    border-radius: 10px;
+    border-color: aliceblue;
+    margin: 5px 15px;
+ }
+ .btt2   {
+    border-radius: 10px;
+    border-color: aliceblue;
+    margin: 10px 0px;
+ }
+
+

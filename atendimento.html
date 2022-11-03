@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Atendimento </title>
+    <link rel="stylesheet" href="base.css">
+
+    <style>  
+        li :hover{
+          background-color: rgb(255, 255, 255); 
+          margin-left: -4px;  
+          display:block;
+          cursor: pointer;
+          color: rgb(0, 85, 243);
+        }
+        span {
+            color: rgb(255, 255, 255);
+        }
+        p {
+            font-size: larger;
+            font-style: oblique;
+        }
+        img
+        {
+            width: 1600px ;
+            height: 300px;
+
+        }
+      </style>
+    
+    
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+              
+                 
+            <ul>
+                
+                <li><a href="http://127.0.0.1:5500/index.html"><span> Início</span></a></li>
+                <hr/>
+                <li><a href="http://127.0.0.1:5500/about.html"><span>Sobre a Clínica</span></a></li>
+                <hr/>
+                <li><a href="#http://127.0.0.1:5500/atendimento.html"><span>Horário de Atendimento</span></a></li>
+                <hr/>
+                <li><a href="http://127.0.0.1:5500/contato.html"><span>Contato</a></span></li>
+                <hr/>
+                
+                
+            </ul>
+            
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <img summary= "logotipo,Nome da empresa Dio Dental Care" title ="logotipo" src="data:image/jpeg;base64,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"/>
+            </div>
+    
+            <div class="content">
+                <h1><u>Horário Atendimento</u></h1>
+                
+                        <table summary="Tabela Com Horario De Atendimento"> 
+                            <thead>
+                                <tr>
+                                    <th title="horário" colspan="4"> Horários</th>              
+                                </tr>
+                                <tr>
+                            <th>Serviços</th>
+                            <th>Segunda a Sexta</th>
+                            <th>Sábados</th>
+                            <th>Feriados</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Prótese dentária</td>
+                                    <td>08h - 18h</td>
+                                    <td>08h - 14h</td>
+                                    <td>08h - 14h</td>   
+                                </tr>
+                                <tr>
+                                    <td>Implantodontia</td>
+                                    <td>07h - 18h</td>
+                                    <td>08h - 14h</td>
+                                    <td>08h - 14h</td>   
+                                </tr>
+                                <tr>
+                                    <td>Clínico geral</td>
+                                    <td>07h - 18h</td>
+                                    <td>08h - 14h</td>
+                                    <td>08h - 14h</td>   
+                                </tr>
+                                <tr>
+                                    <td>Periodontia</td>
+                                    <td>07h - 18h</td>
+                                    <td>08h - 14h</td>
+                                    <td>08h - 14h</td>   
+                                </tr>
+                            </tbody>
+                        </table>
+                        <hr>
+                    
+                                       
+            </div>
+            
+            <div class="footer">
+                <h1><b><blockquote>Dio DentalCare<sup>®</sup> é uma marca registrada</blockquote> </b></h1>
+            </div>
+            
+        </div>
+    </div>
+</body>
+</html>
